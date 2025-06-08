@@ -88,34 +88,45 @@ function Header() {
             </div>
           </div>
 
-          <button className='block lg:hidden ' onClick={()=>setiopen(!isOpen)}>
-            {isOpen ? <IoClose className='text-2xl'/> :  <IoIosMenu className="text-2xl" />}
+          <button
+            className="block lg:hidden "
+            onClick={() => setiopen(!isOpen)}
+          >
+            {isOpen ? (
+              <IoClose className="text-2xl" />
+            ) : (
+              <IoIosMenu className="text-2xl" />
+            )}
           </button>
         </div>
       </div>
 
       <div
-        className={` ${isOpen ? 'opacity-100 translate-y-2 pointer-events-auto' : 'opacity-0 translate-y-4 pointer-events-none' }
+        className={` ${
+          isOpen
+            ? "opacity-100 translate-y-2 pointer-events-auto"
+            : "opacity-0 translate-y-4 pointer-events-none"
+        }
       duration-700 
       w-[90%] lg:hidden
        bg-white border 
        rounded-lg mt-4 absolute 
        left-1/2 transform -translate-x-1/2 p-4
        
-       `} >
-
+       `}
+      >
         <ul>
           <li className=" text-xl border-b-1 pb-3 mb-3">
             <NavLink>Home</NavLink>
           </li>
           <li className=" text-xl border-b-1 pb-3 mb-3">
-            <NavLink to={'/about'}>About</NavLink>
+            <NavLink to={"/about"}>About</NavLink>
           </li>
           <li className=" text-xl border-b-1 pb-3 mb-3">
-            <NavLink>Service</NavLink>
+            <NavLink to={"/service"}>Service</NavLink>
           </li>
           <li className=" text-xl border-b-1 pb-3 mb-3">
-            <NavLink>Contact</NavLink>
+            <NavLink to={"/contact"}>Contact</NavLink>
           </li>
         </ul>
 
