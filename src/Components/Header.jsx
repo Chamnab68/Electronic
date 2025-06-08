@@ -117,7 +117,7 @@ function Header() {
       >
         <ul>
           <li className=" text-xl border-b-1 pb-3 mb-3">
-            <NavLink>Home</NavLink>
+            <NavLink to={"/home"}>Home</NavLink>
           </li>
           <li className=" text-xl border-b-1 pb-3 mb-3">
             <NavLink to={"/about"}>About</NavLink>
