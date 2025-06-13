@@ -51,7 +51,7 @@ function CContact() {
 
             <div className="mt-8 flex justify-center space-x-6">
               <a
-                href="https://scontent.fpnh20-1.fna.fbcdn.net/v/t39.30808-6/493848006_703174622657758_7862937038208819114_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHBtxqAc-vhVp45zRQwsUVAAjqbh5FlphoCOpuHkWWmGgnh8tZiExRSmPuv5p10IdWjjXdhi_nKjcMzVKQCRIGL&_nc_ohc=S34eiDtsoYUQ7kNvwHh-C2G&_nc_oc=Adlj2W_u_EpEs3ElsBGTLRrGdZrZMQ8k9ZySqQBqFDYGOuFBWtuiVyhP1Vv_9O62eXY&_nc_zt=23&_nc_ht=scontent.fpnh20-1.fna&_nc_gid=hPiDEyLLFTh6r-APVWzs9w&oh=00_AfPCiznMu-t4WVL8oAoz0wFGrSDk6ZoQbFTsTto024O-EQ&oe=6851B3F1"
+                href=".//assets/image/pf.jpg"
                 className="hover:text-white/80"
               >
                 <Facebook />
