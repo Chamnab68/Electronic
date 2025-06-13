@@ -44,7 +44,7 @@ function SSercvice() {
     {
       id: 6,
       name: "Build PC Gaming",
-      description: "We have Service and Experience for build Pc Gaming",
+      description: "We have Service and Experience for build Pc",
       price: "$499 up",
       image:
         "https://i.guim.co.uk/img/media/559345d7f4f979e035cfb94bc73d9e907aa8c190/0_299_4032_2419/master/4032.jpg?width=700&quality=85&auto=format&fit=max&s=9bf52edfa5ad15a85b3235ec6e1b2eec",
