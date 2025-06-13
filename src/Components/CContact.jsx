@@ -50,7 +50,7 @@ function CContact() {
             </div>
 
             <div className="mt-8 flex justify-center space-x-6">
-              <a href=".//assets/image/pf.jpg" className="hover:text-white/80">
+              <a href="#" className="hover:text-white/80">
                 <Facebook />
               </a>
               <a href="#" className="hover:text-white/80">
