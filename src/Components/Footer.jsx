@@ -52,26 +52,26 @@ function Footer() {
 
           {/* Department */}
           <div>
-            <h4 className="font-semibold mb-2">Department</h4>
+            <h4 className="font-semibold mb-2">Product</h4>
             {[
-              "Fashion",
-              "Education Product",
-              "Frozen Food",
-              "Beverages",
-              "Organic Grocery",
+              "All Features",
+              "Integrations",
+              "Product Security",
+              "Case Studies",
+              "Pricing",
               "Office Supplies",
-              "Beauty Products",
+              "Android App",
               "Books",
               "Electronics & Gadget",
-              "Travel Accessories",
-              "Fitness",
-              "Sneakers",
-              "Toys",
-              "Furniture",
+              "Electronic Accessories",
+              "Laptop",
+              "Phone",
+              "Speaker",
+              "Monitor",
             ].map((item) => (
               <p
                 key={item}
-                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-orange-500"
+                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-pink-500"
               >
                 {item}
               </p>
@@ -83,18 +83,18 @@ function Footer() {
             <h4 className="font-semibold mb-2">About Us</h4>
             {[
               "About Shopcart",
-              "Careers",
-              "News & Blog",
+              "Ecommerce",
+              "Landing Pages",
               "Help",
-              "Press Center",
-              "Shop By Location",
-              "Shopcart Brands",
+              "Agency",
+              "Social Ads",
+              "Process",
               "Affiliate & Partners",
               "Ideas & Guides",
             ].map((item) => (
               <p
                 key={item}
-                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-orange-500"
+                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-pink-500"
               >
                 {item}
               </p>
@@ -105,15 +105,15 @@ function Footer() {
           <div>
             <h4 className="font-semibold mb-2">Services</h4>
             {[
-              "Gift Card",
-              "Mobile App",
-              "Shipping & Delivery",
-              "Order Pickup",
-              "Account Signup",
+              "Maintanent",
+              "Camera & GPS",
+              "Install Software",
+              "Laptop Secondhand",
+              "Build PC Gaming",
             ].map((item) => (
               <p
                 key={item}
-                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-orange-500"
+                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-pink-500"
               >
                 {item}
               </p>
@@ -130,7 +130,7 @@ function Footer() {
             ].map((item) => (
               <p
                 key={item}
-                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-orange-500"
+                className="text-sm text-gray-700 hover:underline cursor-pointer hover:text-pink-500"
               >
                 {item}
               </p>
@@ -141,21 +141,21 @@ function Footer() {
         {/* Footer Bottom */}
         <div className="flex flex-wrap justify-between items-center mt-10 pt-6 border-t text-sm text-gray-500">
           <div className="flex gap-4 items-center flex-wrap">
-            <span className="hover:text-orange-500 cursor-pointer">
+            <span className="hover:text-pink-500 cursor-pointer">
               🎁 Become Seller
             </span>
-            <span className="hover:text-orange-500 cursor-pointer">
+            <span className="hover:text-pink-500 cursor-pointer">
               💳 Gift Cards
             </span>
-            <span className="hover:text-orange-500 cursor-pointer">
+            <span className="hover:text-pink-500 cursor-pointer">
               🛟 Help Center
             </span>
           </div>
           <div className="flex gap-4 flex-wrap mt-2 sm:mt-0">
-            <span className="cursor-pointer hover:text-orange-500">
+            <span className="cursor-pointer hover:text-pink-500">
               Terms of Service
             </span>
-            <span className="cursor-pointer hover:text-orange-500">
+            <span className="cursor-pointer hover:text-pink-500">
               Privacy & Policy
             </span>
             <span>agency | 2025</span>
