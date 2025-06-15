@@ -14,7 +14,7 @@ function Herotwo() {
             troubling for the bank blance.
           </p>
 
-          <button className="bg-white mt-16 px-8 py-4 rounded-4xl text-black text-2xl cursor-pointer">
+          <button className="bg-white mt-16 px-8 py-4 rounded-4xl text-black text-2xl cursor-pointer hover:bg-pink-600 ">
             Learn More
           </button>
         </div>

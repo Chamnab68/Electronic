@@ -8,7 +8,6 @@ function TrendingProduct() {
       </h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-       
         <div className="rounded-2xl overflow-hidden shadow-md transition-transform hover:shadow-lg">
           <div className="w-full h-[250px] sm:h-[300px] md:h-[355px] overflow-hidden">
             <img
@@ -22,13 +21,12 @@ function TrendingProduct() {
             <p className="text-sm text-gray-600 mt-1 mb-4">
               Delivery within 24 hours
             </p>
-            <button className="bg-black text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300">
+            <button className="bg-black text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 cursor-pointer">
               Shop Now
             </button>
           </div>
         </div>
 
-      
         <div className="rounded-2xl overflow-hidden shadow-md transition-transform hover:shadow-lg">
           <div className="w-full h-[250px] sm:h-[300px] md:h-[355px] overflow-hidden">
             <img
@@ -42,7 +40,7 @@ function TrendingProduct() {
             <p className="text-sm text-gray-600 mt-1 mb-4">
               Delivery within 24 hours
             </p>
-            <button className="bg-black text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300">
+            <button className="bg-black text-white px-5 py-2 rounded-full font-semibold hover:bg-orange-600 transition duration-300 cursor-pointer">
               Shop Now
             </button>
           </div>

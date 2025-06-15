@@ -11,7 +11,7 @@ function Herothree() {
           on Shopcart.com
         </p>
         <div className="mt-6">
-          <button className="text-white bg-orange-600 px-6 py-3 rounded-full hover:bg-blue-600 transition duration-500">
+          <button className="text-white bg-orange-600 px-6 py-3 rounded-full hover:bg-blue-600 transition duration-500 cursor-pointer">
             Learn More
           </button>
         </div>
