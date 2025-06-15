@@ -8,7 +8,7 @@ function Getdiscount() {
         <div className="w-full sm:w-[49%] lg:w-[24%] bg-yellow-50 rounded-lg  overflow-hidden">
           <div className="p-10">
             <p className="text-3-xl font-bold pb-3">Save</p>
-            <p className="text-6xl font-bold mb-4 text-yellow-500">
+            <p className="text-6xl font-bold mb-4 text-yellow-500 ">
               <sup>$100</sup>
             </p>
             <p className="text-xl font-medium">
@@ -19,7 +19,7 @@ function Getdiscount() {
             <img
               src="https://static.independent.co.uk/2024/11/01/16/best-tablets-1-november-2024.jpg?width=1200"
               alt=""
-              className="w-full h-full object-cover hover:scale-105 duration-400"
+              className="w-full h-full object-cover hover:scale-105 duration-400 cursor-pointer"
             />
           </div>
         </div>
@@ -38,7 +38,7 @@ function Getdiscount() {
             <img
               src="https://cdn.mos.cms.futurecdn.net/SHSaafGrLuBAahug277BGg.jpg"
               alt=""
-              className="w-full h-full object-cover hover:scale-105 duration-400"
+              className="w-full h-full object-cover hover:scale-105 duration-400 cursor-pointer"
             />
           </div>
         </div>
@@ -57,7 +57,7 @@ function Getdiscount() {
             <img
               src="https://images.ctfassets.net/bht415zek091/QQxhfR1KETg5SdvguT6I7/5a964bd053528b4e0a0ea2371e5e87ad/Compacts-8.jpg"
               alt=""
-              className="w-full h-full object-cover hover:scale-105 duration-400"
+              className="w-full h-full object-cover hover:scale-105 duration-400 cursor-pointer"
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ function Getdiscount() {
             <img
               src="https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp-x/wearables-v5/product-shelf-and-pop-up/watch-ultimate-series/watch-ultimate-series-kv-poster.jpg"
               alt=""
-              className="w-full h-full object-cover hover:scale-105 duration-400"
+              className="w-full h-full object-cover hover:scale-105 duration-400 cursor-pointer"
             />
           </div>
         </div>

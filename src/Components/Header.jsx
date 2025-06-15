@@ -117,16 +117,16 @@ function Header() {
        `}
       >
         <ul>
-          <li className=" text-xl border-b-1 pb-3 mb-3">
+          <li className=" text-xl border-b-1 pb-3 mb-3 hover:text-orange-500 transition duration-300">
             <NavLink to={"/home"}>Home</NavLink>
           </li>
-          <li className=" text-xl border-b-1 pb-3 mb-3">
+          <li className=" text-xl border-b-1 pb-3 mb-3 hover:text-orange-500 transition duration-300">
             <NavLink to={"/about"}>About</NavLink>
           </li>
-          <li className=" text-xl border-b-1 pb-3 mb-3">
+          <li className=" text-xl border-b-1 pb-3 mb-3 hover:text-orange-500 transition duration-300">
             <NavLink to={"/service"}>Service</NavLink>
           </li>
-          <li className=" text-xl border-b-1 pb-3 mb-3">
+          <li className=" text-xl border-b-1 pb-3 mb-3 hover:text-orange-500 transition duration-300">
             <NavLink to={"/contact"}>Contact</NavLink>
           </li>
         </ul>
